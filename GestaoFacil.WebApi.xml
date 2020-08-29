@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GestaoFacil.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:GestaoFacil.WebApi.Controllers.FuncionarioController.ObterTodas">
+            <summary>
+            Operação que pega todos os funcionarios do banco que existem
+            </summary>
+            <param name="query"></param>
+            <returns>Listagem de funcionarios</returns>
+        </member>
+        <member name="M:GestaoFacil.WebApi.Controllers.FuncionarioController.Obter(System.Int32)">
+            <summary>
+            Operação que pega um único funcionario do banco
+            </summary>
+            <param name="query">Identificador do funcionario</param>
+            <returns>Objeto funcioanrio</returns>
+        </member>
+        <member name="M:GestaoFacil.WebApi.Controllers.FuncionarioController.Cadastrar(GestaoFacil.Dados.Modelos.Funcionario)">
+            <summary>
+            Operação que cadastrar um funcionario
+            </summary>
+            <param name="palavra">Um objeto palavra</param>
+            <returns>>Um objeto funcionario com seu identificador</returns>
+        </member>
+    </members>
+</doc>
